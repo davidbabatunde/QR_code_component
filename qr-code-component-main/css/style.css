@@ -1,0 +1,48 @@
+:root {
+    --black: #171321;
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    background-color: var(--light-gray);
+    font-size: 15px;
+}
+h2 {
+    font-family: 'Oxygen', sans-serif;
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+p {
+    font-family: 'Oxygen Mono', monospace;
+    color: var(--grayish-blue);
+    font-weight: 400;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    padding: auto;
+    margin: auto;
+    border: 20px solid var(--white);
+    display: inline-block;
+    border-radius: 20px;
+    background-color: var(--white);
+    text-align: center;
+}
+img {
+    margin: 0;
+    padding: 0;
+    border-radius: 15px;
+    width: 280px;
+
+}
+figcaption {
+    width: 270px;
+}
